@@ -1,0 +1,138 @@
+* {
+    margin:0;
+    padding:0;
+}
+#container {
+    overflow: hidden;
+    position:absolute;;
+    width:550px;
+    height:650px;
+    left: 30%;
+    background-image: url("../image/backgroundImage.png");
+}
+#logo {
+    position:absolute;
+    height:143px;
+    width:281px;
+    background-image:url("../image/logo.png");
+    top:150px;
+    left:125px;
+}
+#start {
+    z-index: 999;
+    position:absolute;
+    height:64px;
+    width:330px;
+    background-image:url("../image/start.png");
+    top:350px;
+    left:100px;
+    cursor:pointer;
+    opacity: 0.5;
+}
+#start:hover {
+    opacity:1;
+}
+#myPlane {
+    width:109px;
+    height:121px;
+    position:absolute;;
+    background-image: url("../image/myPlane.png");
+    bottom:0;
+    left:220px;
+}
+.bullet {
+    position:absolute;
+    height:14px;
+    width:5px;
+    background-image: url("../image/bullet.png");
+}
+.enemy1 {
+    position: absolute;
+    width:56px;
+    height:50px;
+    background-image: url("../image/enemy1.png");
+    background-repeat: no-repeat;
+    top:0;
+}
+.weapon {
+    position: absolute;
+    height:73px;
+    width:45px;
+    background-image: url("../image/weapon.png");
+}
+#score {
+    height:64px;
+    width:330px;
+    z-index:999;
+    font-size: 20px;
+    position: absolute;
+    float: left;
+    left: 40px;
+}
+#scoreShow {
+     position: absolute;
+     height:143px;
+     width:281px;
+     top:150px;
+     left:125px;
+     font-size: 30px;
+     text-align: center;
+     z-index:999;
+}
+#loadingBox {
+    position: absolute;
+    height:20px;
+    width:150px;
+    top:10px;
+    right:0;
+}
+#loading {
+    position: absolute;
+    height:20px;
+    top:0;
+    left:50px;
+}
+#power {
+    position: absolute;
+    width:520px;
+    height:43px;
+    background-image: url("../image/power.png");
+    bottom: 0;
+    left:30px;
+}
+#pause {
+    position: absolute;
+    top:0;
+    left: 10px;
+    font-size: 20px;
+    z-index: 999;
+    cursor: pointer;
+}
+#continue {
+    z-index: 999;
+    position:absolute;
+    height:64px;
+    width:330px;
+    background-image:url("../image/continue.png");
+    top:250px;
+    left:100px;
+    cursor:pointer;
+    opacity: 0.5;
+}
+#continue:hover {
+    opacity:1;
+}
+#healthBox {
+    position: absolute;
+    height:20px;
+    width:135px;
+    top:40px;
+    right:0;
+}
+#health {
+    position: absolute;
+    height:20px;
+    width:100px;
+    top:0;
+    left:35px;
+}
